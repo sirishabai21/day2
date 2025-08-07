@@ -202,10 +202,18 @@ n=int(input())
 for i in range(n,0,-1):
     print(" "*(n-i) +"* "*i)
 
-# to get hallow pyramid
+# to get hallow traingle
 n=int(input())
 for i in range(1,n+1):
     if i == 1 or i == n:
         print("* "*i)
     else:
         print("*"+" "*(2*i-3)+"*")
+
+# to get hallow pyramid
+n=int(input())
+for i in range(1,n+1):
+    if i==1 or i==n:
+        print(" "*(n-i)+"* "*i)
+    else:   
+        print(" "*(n-i)+"*"+" "*(2*i-3)+"*")
