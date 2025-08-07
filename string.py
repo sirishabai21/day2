@@ -209,12 +209,3 @@ for i in range(1,n+1):
         print("* "*i)
     else:
         print("*"+" "*(2*i-3)+"*")
-
-# n=int(input())
-# for i in range(1,n+1):
-#     if i==1 or i==n:
-#         print("* "*i)
-#     else:   
-#         print(" "*(2*i-3)"*"+" "*(2*i-3)+"*") 
-
-
